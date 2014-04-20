@@ -25,7 +25,6 @@ var _         = require('underscore')
   , matchdep  = require('matchdep')
 
 // private
-
 function configureRequirejs (config, baseDir) {
   var mainFiles = grunt.file.expand(path.normalize(baseDir + '/*/main.js'))
     , packages, includes, requires;
